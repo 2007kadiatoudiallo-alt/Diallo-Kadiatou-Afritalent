@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
+:root {
+  --font-titre: "Playfair Display";
+  --font-corps: "Montserrat";
+  --primary-color: #0f172a;
+  --accent-color: #d4af37;
+  --bg-light: #acc8a2;
+  --text-main: #334155;
+
+  --spacing: 20px;
+  --radius: 12px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-corps);
+  background-color: var(--bg-light);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-titre);
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: var(--spacing);
+}
+.navbar {
+  background-color: #0e1901 !important;
+  padding: 1;
+  box-shadow: var(--shadow-soft);
+  border-radius: 2;
+}
+.btn {
+  background-color: #0d1809;
+}
+.navbar-brand img {
+  border-radius: 12px;
+}
